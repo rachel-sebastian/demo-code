@@ -1,0 +1,30 @@
+.container-pets {
+    height: 100%;
+}
+h2 {
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0em;
+    line-height: 18px;
+    >span {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border-radius: 100%;
+        text-align: center;
+        background: rgb(17, 219, 125);
+        color: rgb(24, 7, 7);
+        font-weight: 200;
+        margin: 0.3em;
+        padding: 0.3em;
+        vertical-align: middle;
+    }
+}

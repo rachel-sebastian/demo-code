@@ -1,0 +1,17 @@
+<div class="container-pets">
+  <h1>{{ title }}</h1>
+  <h2>Cats of Male</h2>
+  <ul class="male">
+    <li *ngFor="let catMale of catsOfMale">
+      <span>{{catMale.trim().substr(0, 1).toUpperCase()}}</span> {{catMale}}
+    </li>
+  </ul>
+
+  <h2>Cats of Female</h2>
+  <ul class="female">
+    <li *ngFor="let catFemale of catsOfFemale">
+      <span>{{catFemale.trim().substr(0, 1).toUpperCase()}}</span> {{catFemale}}
+    </li>
+  </ul>
+</div>
+<ngx-spinner></ngx-spinner>
